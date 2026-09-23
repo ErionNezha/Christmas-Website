@@ -40,7 +40,7 @@ Faqe interneti festive për Krishtlindje — urime të ngrohta, dekorime, dyqan 
 
 ## 📄 Licenca
 
-Ky projekt është i licencuar nën licencën MIT — shiko file-in [LICENSE](LICENSE) për detaje.
+Të gjitha të drejtat e rezervuara © 2026 Erion Nezha — shiko file-in [LICENSE](LICENSE) për detaje.
 
 ---
 
@@ -86,4 +86,4 @@ A festive Christmas website — warm greetings, decorations, a gift shop, galler
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+All rights reserved © 2026 Erion Nezha — see the [LICENSE](LICENSE) file for details.
