@@ -36,7 +36,7 @@ Faqe interneti festive për Krishtlindje — urime të ngrohta, dekorime, dyqan 
 ## 👤 Autori
 
 **Erion Nezha** — Tiranë, Shqipëri
-📧 erjonnezhaa@gmail.com · 📞 +355 699 552 080
+📧 shembull@example.com · 📞 +355 6XX XXX XXX
 
 ## 📄 Licenca
 
@@ -82,7 +82,7 @@ A festive Christmas website — warm greetings, decorations, a gift shop, galler
 ## 👤 Author
 
 **Erion Nezha** — Tirana, Albania
-📧 erjonnezhaa@gmail.com · 📞 +355 699 552 080
+📧 shembull@example.com · 📞 +355 6XX XXX XXX
 
 ## 📄 License
 
