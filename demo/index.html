@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<!-- Created by Erion Nezha — © 2026 All rights reserved -->
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhurata — Gëzuar Krishtlindjet</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- custom javascript link  -->
+    <script src="js/script.js" defer></script>
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-gifts"></i> dhurata </a>
+
+    <nav class="navbar">
+        <a href="#home">fillimi</a>
+        <a href="#about">rreth nesh</a>
+        <a href="#shop">dyqani</a>
+        <a href="#gallery">galeria</a>
+        <a href="#message">mesazhi</a>
+        <a href="#blogs">artikujt</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" name="" placeholder="kërko këtu..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide active" style="background:url(images/home-bg-1.png) no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>gëzuar krishtlindjet</span>
+            <h3>deri në 60% ulje</h3>
+            <a href="#" class="btn">blej tani</a>
+        </div>
+    </div>
+
+    <div class="slide" style="background:url(images/home-bg-2.png) no-repeat; background-size: cover; background-position: center;">
+        <div class="content">
+            <span>ho-ho-ho</span>
+            <h3>gëzuar festat</h3>
+            <a href="#" class="btn">blej tani</a>
+        </div>
+    </div>
+
+    <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- category section starts  -->
+
+<section class="category">
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+            <img src="images/category-1.png" alt="">
+            <h3>dekorime krishtlindjesh</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-2.png" alt="">
+            <h3>pema e krishtlindjeve</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-3.png" alt="">
+            <h3>dhurata festive</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-4.png" alt="">
+            <h3>drita dekorative</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-5.png" alt="">
+            <h3>biskota krishtlindjesh</h3>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-6.png" alt="">
+            <h3>stoli festive</h3>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image">
+        <img src="images/about-img.png" alt="">
+    </div>
+
+    <div class="content">
+        <div class="box">
+            <h3>zbritjet e krishtlindjeve janë aktive</h3>
+            <p>Krishtlindjet janë festa e ngrohtësisë, familjes dhe dhuratave. Këtu do të gjesh dekorimet më të bukura, dhuratat më të veçanta dhe gjithçka që të duhet për t'i bërë festat e tua të paharrueshme. Zgjidh me zemër dhe bëj dikë të buzëqeshë këtë Krishtlindje!</p>
+            <a href="#" class="btn">lexo më shumë</a>
+        </div>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-tree"></i>
+                <p>pema e krishtlindjeve</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-cookie"></i>
+                <p>biskota krishtlindjesh</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-gifts"></i>
+                <p>dhurata krishtlindjesh</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- shop section starts  -->
+
+<section class="shop" id="shop">
+
+    <h1 class="heading">dyqani ynë</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-1.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>dekorime krishtlindjesh</h3>
+                <div class="price"> $249.99 <span>$289.99</span> </div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-2.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>dekorime krishtlindjesh</h3>
+                <div class="price"> $249.99 <span>$289.99</span> </div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-3.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>dekorime krishtlindjesh</h3>
+                <div class="price"> $249.99 <span>$289.99</span> </div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-4.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>dekorime krishtlindjesh</h3>
+                <div class="price"> $249.99 <span>$289.99</span> </div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-5.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>dekorime krishtlindjesh</h3>
+                <div class="price"> $249.99 <span>$289.99</span> </div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/product-6.png" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>dekorime krishtlindjesh</h3>
+                <div class="price"> $249.99 <span>$289.99</span> </div>
+                <a href="#" class="btn">shto në shportë</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- shop section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner">
+
+    <div class="content">
+        <span>ofertë speciale</span>
+        <h3>deri në 50% ulje</h3>
+        <p>Dhuratat më të bukura për njerëzit më të dashur — përfito nga zbritjet festive tani!</p>
+        <a href="#" class="btn">blej tani</a>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> galeria jonë </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/gallery-img-1.jpg" alt="">
+            <div class="content">
+                <h3>gëzuar krishtlindjet</h3>
+                <p>Momentet më të bukura festive, të kapura për t'u kujtuar përgjithmonë.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-2.jpg" alt="">
+            <div class="content">
+                <h3>gëzuar krishtlindjet</h3>
+                <p>Drita, ngjyra dhe magji — shpirti i festave në çdo foto.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-3.jpg" alt="">
+            <div class="content">
+                <h3>gëzuar krishtlindjet</h3>
+                <p>Dekorime që e kthejnë shtëpinë në një përrallë dimërore.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-4.jpg" alt="">
+            <div class="content">
+                <h3>gëzuar krishtlindjet</h3>
+                <p>Buzëqeshje, ngrohtësi dhe festë me njerëzit e zemrës.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-5.jpg" alt="">
+            <div class="content">
+                <h3>gëzuar krishtlindjet</h3>
+                <p>Dhurata të mbështjella me dashuri, gati për t'u hapur.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/gallery-img-6.jpg" alt="">
+            <div class="content">
+                <h3>gëzuar krishtlindjet</h3>
+                <p>Nata e Krishtlindjeve — le të ndriçojë çdo zemër.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- message sections starts  -->
+
+<section class="message" id="message">
+
+    <form action="">
+        <h3>na kontaktoni</h3>
+        <input type="text" placeholder="emri i plotë" class="box">
+        <input type="email" placeholder="email-i" class="box">
+        <input type="number" placeholder="telefoni" class="box">
+        <textarea name="" placeholder="mesazhi" class="box" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="dërgo mesazhin" class="btn">
+    </form>
+
+</section>
+
+<!-- message section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading">artikujt tanë</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="date">
+                    <h3>21</h3>
+                    <span>dhj</span>
+                </div>
+                <a href="#" class="user"> <i class="fas fa-user"></i> nga Erion Nezha </a>
+                <a href="#" class="title"> Si ta dekoroni pemën e Krishtlindjeve si profesionist </a>
+                <p>Këshilla të thjeshta për ta bërë pemën tuaj të shkëlqejë këtë festë.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="date">
+                    <h3>12</h3>
+                    <span>dhj</span>
+                </div>
+                <a href="#" class="user"> <i class="fas fa-user"></i> nga Erion Nezha </a>
+                <a href="#" class="title"> 10 ide dhuratash për familjen këtë Krishtlindje </a>
+                <p>Zgjidh dhuratën e duhur për secilin — pa stres dhe me shumë zemër.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <div class="date">
+                    <h3>05</h3>
+                    <span>dhj</span>
+                </div>
+                <a href="#" class="user"> <i class="fas fa-user"></i> nga Erion Nezha </a>
+                <a href="#" class="title"> Traditat e Krishtlindjeve që i bëjnë festat magjike </a>
+                <p>Nga darka festive te këngët — si ta përjetoni magjinë e plotë.</p>
+                <a href="#" class="btn">lexo më shumë</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- services section starts  -->
+
+<section class="service">
+
+    <div class="box">
+        <img src="images/icon-1.png" alt="">
+        <h3>dërgesë falas</h3>
+        <p>Dhuratat tuaja arrijnë shpejt dhe pa kosto shtesë dërgese.</p>
+    </div>
+
+    <div class="box">
+        <img src="images/icon-2.png" alt="">
+        <h3>pagesa të sigurta</h3>
+        <p>Ble me qetësi — pagesat tuaja janë gjithmonë të mbrojtura.</p>
+    </div>
+
+    <div class="box">
+        <img src="images/icon-3.png" alt="">
+        <h3>mbështetje 24/7</h3>
+        <p>Jemi këtu për ju në çdo moment, edhe gjatë festave.</p>
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>linke të shpejta</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> fillimi</a>
+            <a class="link" href="#about"> <i class="fas fa-angle-right"></i> rreth nesh</a>
+            <a class="link" href="#shop"> <i class="fas fa-angle-right"></i> dyqani</a>
+            <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> galeria</a>
+            <a class="link" href="#message"> <i class="fas fa-angle-right"></i> mesazhi</a>
+            <a class="link" href="#blogs"> <i class="fas fa-angle-right"></i> artikujt</a>
+        </div>
+
+        <div class="box">
+            <h3>linke shtesë</h3>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> të preferuarat </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> porosia ime </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> lista e dëshirave </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> politika e privatësisë </a>
+            <a class="link" href="#"> <i class="fas fa-angle-right"></i> kushtet e përdorimit </a>
+        </div>
+
+        <div class="box">
+            <h3>të dhënat e kontaktit</h3>
+            <a class="link" href="#"> <i class="fas fa-phone"></i> +355 6XX XXX XXX </a>
+            <a class="link" href="#"> <i class="fas fa-envelope"></i> shembull@example.com </a>
+            <a class="link" href="#"> <i class="fas fa-map"></i> Tiranë, Shqipëri</a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>buletini</h3>
+            <p>abonohu për lajmet më të fundit</p>
+            <form action="">
+                <input type="email" name="" placeholder="shkruaj email-in" id="" class="email">
+                <input type="submit" value="abonohu" class="btn">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="credit"> krijuar nga <span>Erion Nezha</span> | të gjitha të drejtat e rezervuara! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+</body>
+</html>
